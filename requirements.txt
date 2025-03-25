@@ -9,3 +9,4 @@ whisper
 torch
 textblob
 vaderSentiment
+openai-whisper
