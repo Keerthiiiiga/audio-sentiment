@@ -1,1 +1,0 @@
-"Flask\ngunicorn\nlibrosa\nnumpy\npandas\ntensorflow"  add requirements.txtgit commit -m "Added requirements.txt"git push origin main
