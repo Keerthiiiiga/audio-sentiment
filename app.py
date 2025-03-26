@@ -33,7 +33,7 @@ def analyze_sentiment(text):
         "valence": valence,
         "confidence": sentiment_scores['compound']
     }
- @app.route("/")
+@app.route("/")
 def home():
     return "Flask Audio Sentiment API is running!"
 
@@ -46,7 +46,6 @@ def analyze_audio():
     file = request.files["file"]
     file_path = f"./{file.filename}"
     
-    # Save the file
     file.save(file_path)
 
     # Transcribe audio using Whisper
