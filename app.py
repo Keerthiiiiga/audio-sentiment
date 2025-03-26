@@ -12,7 +12,7 @@ CORS(app)
  # Enable CORS for frontend access
 
 # Load Whisper model
-model = whisper.load_model("tiny", device="cpu")
+model = whisper.load_model("tiny.en", device="cpu")
 model.to("cpu", dtype=torch.float32)
 
 # Sentiment Analyzer
