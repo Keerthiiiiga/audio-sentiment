@@ -33,6 +33,10 @@ def analyze_sentiment(text):
         "valence": valence,
         "confidence": sentiment_scores['compound']
     }
+ @app.route("/")
+def home():
+    return "Flask Audio Sentiment API is running!"
+
 
 @app.route("/analyze-audio", methods=["POST"])
 def analyze_audio():
