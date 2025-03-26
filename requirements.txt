@@ -1,11 +1,7 @@
 Flask
 gunicorn
-librosa
 numpy
-pandas
-tensorflow  # (if using ML models)
 flask_cors
-whisper
 torch
 textblob
 vaderSentiment
